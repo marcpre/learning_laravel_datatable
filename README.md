@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#
+# learning_laravel_datatable
 
 ## Installation
 
@@ -28,6 +27,3 @@ Done.
 
 [jQuery DataTables API for Laravel 4|5](https://github.com/yajra/laravel-datatables)
 
-=======
-# learning_laravel_datatable
->>>>>>> fb608553238e7af56b7bf8e28bef80b3cf744076
