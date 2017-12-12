@@ -14,7 +14,7 @@ class DatatablesController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function getIndex()
+    public function index()
     {
         return view('datatables.index');
     }
@@ -24,7 +24,7 @@ class DatatablesController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function anyData()
+    public function data()
     {
         return Datatables::of(Task::query())->make(true);
     }

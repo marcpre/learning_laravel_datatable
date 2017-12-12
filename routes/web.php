@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('datatables/data', 'DatatablesController@getIndex')->name('datatables.data');
+Route::get('datatables/data', 'DatatablesController@data')->name('datatables.data');
+
+Route::resource('/task', 'DatatablesController');
