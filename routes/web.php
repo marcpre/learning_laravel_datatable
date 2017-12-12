@@ -11,4 +11,7 @@
 |
 */
 
-Route::resource('/task', 'EloquentController');
+Route::resource('datatables', 'DatatablesController', [
+    'anyData'  => 'datatables.data',
+    'getIndex' => 'datatables',
+]);

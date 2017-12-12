@@ -5,7 +5,7 @@ namespace App\DataTables;
 use App\Task;
 use Yajra\Datatables\Services\DataTable;
 
-class TaskDataTable extends DataTable
+class TaskDataTable extends Datatable
 {
     /**
      * Build DataTable class.
