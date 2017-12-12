@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Yajra\DataTables\DataTablesServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
         
         /*
          * Application Service Providers...
@@ -228,7 +228,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         
         // Custom
-        'DataTables' => Yajra\Datatables\Facades\DataTables::class,
+        'Datatables' => Yajra\Datatables\Facades\Datatables::class,
 
     ],
 

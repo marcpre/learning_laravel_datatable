@@ -9,7 +9,7 @@ use Yajra\Datatables\Datatables;
 
 class DatatablesController extends Controller
 {
-     /**
+    /**
      * Displays datatables front end view
      *
      * @return \Illuminate\View\View
@@ -18,7 +18,7 @@ class DatatablesController extends Controller
     {
         return view('datatables.index');
     }
-
+    
     /**
      * Process datatables ajax request.
      *
