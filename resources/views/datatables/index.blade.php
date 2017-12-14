@@ -20,6 +20,9 @@ $(function() {
         processing: true,
         serverSide: true,
         ajax: '{!! route('datatables.data') !!}',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ],
         columns: [
             { data: 'id', name: 'id' },
             { data: 'name', name: 'name' },

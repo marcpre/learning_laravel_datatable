@@ -18,7 +18,7 @@
         <![endif]-->
         <style>
             body {
-                padding-top: 40px;
+                padding-top: 60px;
             }
         </style>
     </head>
@@ -33,6 +33,12 @@
         <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
         <!-- Bootstrap JavaScript -->
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- DataTables Button -->
+        <script src="//cdn.datatables.net/buttons/1.1.0/js/buttons.print.min.js"></script>
+        <script type="text/javascript" src="{{URL::asset('js/buttons.server-side.js')}}"></script>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+
         <!-- App scripts -->
         @stack('scripts')
     </body>

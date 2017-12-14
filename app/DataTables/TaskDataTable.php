@@ -42,7 +42,10 @@ class TaskDataTable extends Datatable
                     ->columns($this->getColumns())
                     ->ajax('')
                     ->addAction(['width' => '80px'])
-                    ->parameters($this->getBuilderParameters());
+                    ->parameters([
+                        'dom'          => 'Bfrtip',
+                        'buttons'      => ['export', 'print', 'reset', 'reload'],
+                    ]);
     }
 
     /**

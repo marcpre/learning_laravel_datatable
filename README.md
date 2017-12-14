@@ -4,6 +4,11 @@
 
 `composer require yajra/laravel-datatables-oracle:"~8.0"`
 
+## Create a Datatable Class
+
+`php artisan datatables:make Tasks`
+
+
 ###Service Provider & Facade (Optional on Laravel 5.5)
 
 Register provider and facade on your config/app.php file.
